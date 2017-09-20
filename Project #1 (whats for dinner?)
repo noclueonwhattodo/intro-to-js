@@ -1,0 +1,38 @@
+background(186, 145, 20); // wooden table
+ellipse(200, 200, 350, 350); // plate
+ellipse(200, 200, 300, 300); 
+fill(255, 196, 0);
+ellipse(184, 144, 150,150);//bottom bun
+fill(79, 42, 42);
+ellipse(178, 144, 150,150);//burger
+fill(255, 196, 0);
+ellipse(172, 144, 150,150);//topbun
+stroke(242, 241, 239);
+strokeWeight(10);
+//sesame section
+point(145, 200); 
+point(171, 183); 
+point(130, 164); 
+point(190, 206); 
+point(200, 151); 
+point(156, 145); 
+point(126, 132); 
+point(209, 182); 
+point(183, 125); 
+point(217, 126); 
+point(160, 109); 
+point(145, 92); 
+point(199, 93); 
+//frenchfry section
+stroke(255, 230, 0);
+line(80, 275, 187, 306);
+line(116, 300, 255, 328);
+line(136, 272, 238, 306);
+line(80, 275, 187, 306);
+line(268, 275, 187, 306);
+line(185, 275, 187, 344);
+line(78, 249, 245, 259);
+//ketchup
+stroke(255, 0, 0);
+fill(255, 0, 0);
+ellipse(298, 226, 75, 100);
