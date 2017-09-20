@@ -1,0 +1,28 @@
+var bodyX = 200;
+var bodyY = 200;
+var bodyW = 164;
+var bodyH = bodyW/2;
+
+draw = function() {
+    background(207, 254, 255);
+    fill(240, 209, 36);
+    ellipse(bodyX, bodyY, bodyW, 106); // body?
+    ellipse(bodyX, bodyY-70, bodyH, 47); // face?
+    fill(0, 0, 0);
+    ellipse(bodyX-30, bodyY-80, bodyH/4, bodyH/4);
+    ellipse(bodyX+30, bodyY-80, bodyH/4, bodyH/4);
+    fill(255, 0, 0);
+    ellipse(bodyX-1, bodyY-62, bodyH/4, bodyH/4);
+    if(bodyY=== 200){
+        bodyY= 220;
+    }
+    else{
+        bodyY--;
+    }
+     if(bodyX=== 200){
+        bodyX= 220;
+    }
+    else{
+        bodyX--;
+    }
+};
