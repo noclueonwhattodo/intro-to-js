@@ -1,0 +1,26 @@
+fill(0, 0, 0);
+ellipse(200, 200, 375, 375);
+fill(60, 0, 255);
+triangle(200, 104, 280, 280, 120, 280);
+fill(255, 255, 255);
+var answer = floor(random(1, 6));
+if (answer === 1  ) {
+    text("heeeeey", 176, 200);
+    text("YAAAAAAAAAA", 159, 229); 
+}
+else if (answer === 2) {
+    text("Give the succc", 161, 200);
+    text("IMPLEMENTED", 159, 229); 
+}
+else if (answer === 3) {
+    text("Mr.O", 161, 200);
+    text("reads the code", 159, 229); 
+}
+else if (answer === 4) {
+    text("i'm", 161, 200);
+    text("running", 159, 229); 
+}
+else if (answer === 5) {
+    text("out of", 161, 200);
+    text("Ideas", 159, 229); 
+}
