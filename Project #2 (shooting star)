@@ -1,0 +1,16 @@
+var xPos = 14;
+var yPos = 15;
+var x2 = 176;
+var y2 = 645;
+
+draw = function() {
+    background(29, 40, 115);
+    fill(255, 242, 0);
+    ellipse(xPos, yPos, 10, 10);
+    xPos= xPos + 3;
+    yPos++;
+    ellipse(x2, y2, 70, 70);
+    ellipse(x2 + 70, y2, 70, 70);
+    ellipse(x2 +35, y2 - 75, 70, 172);
+    y2 = y2 - 100;
+};
