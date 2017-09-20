@@ -1,0 +1,23 @@
+fill(23, 21, 21);
+
+var txt;
+var xpos;
+textSize(28);
+draw= function() {
+    background(252, 247, 247);
+    if(txt===28){
+        txt= 20;
+        xpos=67;
+    }
+    else{
+       txt= 28; 
+       xpos=0;
+    }
+    textSize(txt);
+    text("FOOOOOOOOOOOOOOOOD", xpos, 30);
+    textSize(20);
+    text("Come down to кур's BBQ!", 84, 87);
+    triangle(50, 197, 200, 325, 378, 197);
+    text("Home of the tasty triangle",77,340);
+    
+};
